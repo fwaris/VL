@@ -5,7 +5,7 @@ VL is an [F#] based DSL for IOS visual layout in [Xamarin] F#-IOS projects.
 
 VL is used to express constraints about the screen layout of controls, e.g. height, width, sequence, spacing, margins, anchoring / docking, etc.
 
-Under the covers VL is translated to the [Apple Visual Format] language.
+Under the covers VL is translated to the [Apple Auto Layout] visual format language.
 
 Version
 ----
@@ -33,4 +33,4 @@ MIT
 
 [F#]:http://tryfsharp.org
 [Xamarin]:http://xamarin.com
-[Apple Visual Format]:https://developer.apple.com/library/ios/documentation/userexperience/conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html
+[Apple Auto Layout]:https://developer.apple.com/library/ios/documentation/userexperience/conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html
