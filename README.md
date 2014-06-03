@@ -34,3 +34,4 @@ MIT
 [F#]:http://tryfsharp.org
 [Xamarin]:http://xamarin.com
 [Apple Auto Layout]:https://developer.apple.com/library/ios/documentation/userexperience/conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html
+[this blog post]:http://wp.me/p1buGO-8S
