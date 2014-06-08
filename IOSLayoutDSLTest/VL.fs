@@ -71,7 +71,7 @@ let (!-<=)  c = Mg (Mle c)
 let sp        = Mg Sp
 
 let (!@)  a = Vu(a)
-let (@@) a b = match a with Vu v -> Vuc (v,b) | _ -> failwith "!! operator only converts Vu to Vuc"
+let (@@) a b = match a with Vu v -> Vuc (v,b) | _ -> failwith "@@ operator only converts Vu to Vuc"
 
 
 ///DSL translator

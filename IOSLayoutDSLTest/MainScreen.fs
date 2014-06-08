@@ -23,12 +23,16 @@ let genView () =
     cntntTbl.ScrollEnabled <- true
 
     //constraints
-    let cth = H [ !- 2. ; !@ bTopLeft   ; !->= 5.1; !@ bTopRight   ; !- 2.]      //anchor horizontally
+
+    //anchor buttons horizontally
+    let cth = H [ !- 2. ; !@ bTopLeft   ; !->= 5.1; !@ bTopRight   ; !- 2.]
     let cbh = H [ !- 2. ; !@ bBottomLeft; !->= 5.2; !@ bBottomRight; !- 2.]
  
+    //anchor buttons vertically
     let clv = V [ !- 20.; !@ bTopLeft; !->= 5.3; !@ bBottomLeft; !- 2.]
     let crv = V [ !- 20.; !@ bTopRight; !->= 5.4; !@ bBottomRight; !- 2.]
 
+    //anchor center table 
     let c5 = H [!- 40. ; !@ cntntTbl @@ [!!> 5.5]; !- 40.]
     let c6 = V [!- 60. ; !@ cntntTbl @@ [!!> 5.6]; !- 40.]
    
